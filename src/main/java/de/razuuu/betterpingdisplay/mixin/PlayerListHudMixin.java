@@ -1,6 +1,6 @@
-package com.vladmarica.betterpingdisplay.mixin;
+package de.razuuu.betterpingdisplay.mixin;
 
-import com.vladmarica.betterpingdisplay.hud.CustomPlayerListHud;
+import de.razuuu.betterpingdisplay.hud.CustomPlayerListHud;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.hud.PlayerListHud;
 import net.minecraft.client.network.PlayerListEntry;

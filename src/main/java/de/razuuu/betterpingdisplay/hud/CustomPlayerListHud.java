@@ -1,9 +1,9 @@
-package com.vladmarica.betterpingdisplay.hud;
+package de.razuuu.betterpingdisplay.hud;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.vladmarica.betterpingdisplay.BetterPingDisplayMod;
-import com.vladmarica.betterpingdisplay.Config;
-import com.vladmarica.betterpingdisplay.mixin.PlayerListHudInvoker;
+import de.razuuu.betterpingdisplay.BetterPingDisplayMod;
+import de.razuuu.betterpingdisplay.Config;
+import de.razuuu.betterpingdisplay.mixin.PlayerListHudInvoker;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.hud.PlayerListHud;

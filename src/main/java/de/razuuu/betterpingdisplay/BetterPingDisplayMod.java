@@ -1,6 +1,6 @@
-package com.vladmarica.betterpingdisplay;
+package de.razuuu.betterpingdisplay;
 
-import com.vladmarica.betterpingdisplay.Config.ConfigData;
+import de.razuuu.betterpingdisplay.Config.ConfigData;
 import java.io.File;
 import java.nio.file.Path;
 import net.fabricmc.api.ModInitializer;

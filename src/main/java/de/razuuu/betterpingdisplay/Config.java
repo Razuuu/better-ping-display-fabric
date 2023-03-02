@@ -1,4 +1,4 @@
-package com.vladmarica.betterpingdisplay;
+package de.razuuu.betterpingdisplay;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

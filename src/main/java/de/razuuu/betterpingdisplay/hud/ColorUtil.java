@@ -1,4 +1,4 @@
-package com.vladmarica.betterpingdisplay.hud;
+package de.razuuu.betterpingdisplay.hud;
 
 import com.google.common.annotations.VisibleForTesting;
 

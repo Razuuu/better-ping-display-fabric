@@ -1,7 +1,7 @@
-package com.vladmarica.betterpingdisplay.hud;
+package de.razuuu.betterpingdisplay.hud;
 
-import static com.vladmarica.betterpingdisplay.hud.PingColors.COLOR_MID;
-import static com.vladmarica.betterpingdisplay.hud.PingColors.COLOR_START;
+import static de.razuuu.betterpingdisplay.hud.PingColors.COLOR_MID;
+import static de.razuuu.betterpingdisplay.hud.PingColors.COLOR_START;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 

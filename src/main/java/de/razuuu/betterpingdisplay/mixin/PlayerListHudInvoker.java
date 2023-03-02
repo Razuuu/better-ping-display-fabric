@@ -1,4 +1,4 @@
-package com.vladmarica.betterpingdisplay.mixin;
+package de.razuuu.betterpingdisplay.mixin;
 
 import net.minecraft.client.gui.hud.PlayerListHud;
 import net.minecraft.client.network.PlayerListEntry;

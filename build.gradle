@@ -71,11 +71,11 @@ publishing {
 
 sourceSets {
 	main.java {
-		include 'com/vladmarica/betterpingdisplay/**/*'
+		include 'de/razuuu/betterpingdisplay/**/*'
 		exclude 'net/fabricmc/*'
 	}
 	test.java {
-		include 'com/vladmarica/betterpingdisplay/**/*'
+		include 'de/razuuu/betterpingdisplay/**/*'
 	}
 }
 
