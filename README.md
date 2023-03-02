@@ -11,6 +11,9 @@ Go [**here**](https://github.com/vladmarica/better-ping-display) for the Minecra
 This is a client-side mod. The server doesn't need to have it installed. It works even when playing on vanilla servers.
 
 ## Configuration
+
+__If you have a [ModMenu](https://modrinth.com/mod/modmenu) installed, you can edit mod's config using it.__
+
 This mod's config file is `betterpingdisplay.json`. It contains the following options:
 
 | Option  | Default Value  | Description  |

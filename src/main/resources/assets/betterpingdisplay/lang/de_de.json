@@ -1,0 +1,23 @@
+{
+  "label.betterpingdisplay.on": "\u00A7aAn",
+  "label.betterpingdisplay.off": "\u00A7eAus",
+
+  "title.betterpingdisplay.config": "BetterPingDisplay Einstellungen",
+
+  "options.betterpingdisplay.autoColorPingText": "Ping-Text automatisch färben",
+  "options.betterpingdisplay.autoColorPingText.tooltip.1": "Ob der Ping eines Spielers basierend auf seiner Latenz eingefärbt werden soll.",
+  "options.betterpingdisplay.autoColorPingText.tooltip.2": "z.B. niedrige Latenz = Grün, hohe Latenz = Rot",
+
+  "options.betterpingdisplay.renderPingBars": "Ping-Leisten rendern",
+  "options.betterpingdisplay.renderPingBars.tooltip.1": "Ob auch die Standard-Minecraft-Ping-Leisten gezeichnet werden sollen",
+
+  "options.betterpingdisplay.pingTextColor": "Ping-Textfarbe",
+  "options.betterpingdisplay.pingTextColor.tooltip.1": "Die zu verwendende Ping-Textfarbe.",
+  "options.betterpingdisplay.pingTextColor.tooltip.2": "Funktioniert nur, wenn die Auto-Color-Ping-Textfunktion deaktiviert ist",
+
+  "options.betterpingdisplay.pingTextFormat": "Ping-Textformat",
+  "options.betterpingdisplay.pingTextFormat.tooltip.1": "Die Formatzeichenfolge für Ping-Text.",
+  "options.betterpingdisplay.pingTextFormat.tooltip.2": "Muss ein `%d` enthalten, das ersetzt wird",
+  "options.betterpingdisplay.pingTextFormat.tooltip.3": "dynamisch durch den aktuellen Ping-Wert.",
+  "options.betterpingdisplay.pingTextFormat.error": "Dieser Parameter muss %d enthalten"
+}

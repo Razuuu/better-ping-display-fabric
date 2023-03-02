@@ -2,7 +2,7 @@ package de.razuuu.betterpingdisplay.hud;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import de.razuuu.betterpingdisplay.BetterPingDisplayMod;
-import de.razuuu.betterpingdisplay.Config;
+import de.razuuu.betterpingdisplay.config.Config;
 import de.razuuu.betterpingdisplay.mixin.PlayerListHudInvoker;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
@@ -19,7 +19,7 @@ public final class CustomPlayerListHud {
           MinecraftClient client, PlayerListHud hud, MatrixStack matrixStack, int width, int x, int y, PlayerListEntry player) {
     TextRenderer textRenderer = client.textRenderer;
 
-    String pingString = String.format(config.getTextFormatString(), player.getLatency());
+    String pingString = String.format(config.getPingTextFormat(), player.getLatency());
     int pingStringWidth = textRenderer.getWidth(pingString);
     int pingTextColor = config.shouldAutoColorPingText() ? PingColors.getColor(player.getLatency()) : config.getTextColor();
     int textX = width + x - pingStringWidth + PING_TEXT_RENDER_OFFSET;

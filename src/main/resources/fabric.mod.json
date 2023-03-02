@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "de.razuuu.betterpingdisplay.BetterPingDisplayMod"
+    ],
+    "modmenu": [
+      "de.razuuu.betterpingdisplay.ModMenuIntegration"
     ]
   },
   "mixins": [
