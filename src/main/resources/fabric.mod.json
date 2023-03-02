@@ -20,7 +20,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.vladmarica.betterpingdisplay.BetterPingDisplayMod"
+      "de.razuuu.betterpingdisplay.BetterPingDisplayMod"
     ]
   },
   "mixins": [
