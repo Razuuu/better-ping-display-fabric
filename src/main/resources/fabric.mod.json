@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "betterpingdisplay",
-  "version": "1.1.1",
+  "version": "2.0.0",
 
   "name": "Better Ping Display",
-  "description": "Shows the actual ping number instead of just bars in the player list!",
+  "description": "Shows the actual ping number instead of just bars in the player list!\n+ Ping command built-in! (accessible via /cping)",
   "authors": [
     "Razuuu"
   ],
@@ -24,6 +24,9 @@
     ],
     "modmenu": [
       "de.razuuu.betterpingdisplay.ModMenuIntegration"
+    ],
+    "client": [
+      "de.razuuu.betterpingdisplay.ClientCommands"
     ]
   },
   "mixins": [
@@ -32,7 +35,8 @@
 
   "depends": {
     "fabricloader": ">=0.14",
-    "minecraft": "1.19.3"
+    "minecraft": "1.19.3",
+    "clientarguments": ">=1.3.0"
   },
   "suggests": {}
 }

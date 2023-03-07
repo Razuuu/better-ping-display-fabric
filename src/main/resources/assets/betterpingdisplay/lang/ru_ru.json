@@ -1,6 +1,6 @@
 {
-  "label.betterpingdisplay.on": "\u00A7aВкл",
-  "label.betterpingdisplay.off": "\u00A7eВыкл",
+  "label.betterpingdisplay.on": "§aВкл",
+  "label.betterpingdisplay.off": "§eВыкл",
 
   "title.betterpingdisplay.config": "Настройки BetterPingDisplay",
 
@@ -16,7 +16,13 @@
 
   "options.betterpingdisplay.pingTextFormat": "Формат пинга",
   "options.betterpingdisplay.pingTextFormat.tooltip.1": "Формат для текста пинга",
-  "options.betterpingdisplay.pingTextFormat.tooltip.2": "Должен содержать `%d`, который будет заменён",
+  "options.betterpingdisplay.pingTextFormat.tooltip.2": "Должен содержать %§cd, который будет заменён",
   "options.betterpingdisplay.pingTextFormat.tooltip.3": "на текущее значение пинга игрока.",
-  "options.betterpingdisplay.pingTextFormat.error": "Этот параметр должен содержать `%d`"
+  "options.betterpingdisplay.pingTextFormat.error": "Этот параметр должен содержать %§cd",
+
+  "commands.cping.success": "Ваш средний пинг %d",
+  "commands.cping.success.other": "Средний пинг %s составляет %d",
+  "commands.cping.singleplayer": "Вы находитесь в одиночном мире",
+  "commands.cping.playerNotFound": "Игрок не найден",
+  "commands.cping.tooManyPlayers": "Ваш запрос может соответствовать не более чем 1 игроку"
 }

@@ -1,6 +1,6 @@
 {
-  "label.betterpingdisplay.on": "\u00A7aOn",
-  "label.betterpingdisplay.off": "\u00A7eOff",
+  "label.betterpingdisplay.on": "§aOn",
+  "label.betterpingdisplay.off": "§eOff",
 
   "title.betterpingdisplay.config": "BetterPingDisplay Settings",
 
@@ -17,7 +17,13 @@
 
   "options.betterpingdisplay.pingTextFormat": "Ping text format",
   "options.betterpingdisplay.pingTextFormat.tooltip.1": "The format string for ping text.",
-  "options.betterpingdisplay.pingTextFormat.tooltip.2": "Must include a `%d`, which will be replaced",
+  "options.betterpingdisplay.pingTextFormat.tooltip.2": "Must include a %§cd, which will be replaced",
   "options.betterpingdisplay.pingTextFormat.tooltip.3": "dynamically by the actual ping value.",
-  "options.betterpingdisplay.pingTextFormat.error": "This parameter must contain %d"
+  "options.betterpingdisplay.pingTextFormat.error": "This parameter must contain %§cd",
+
+  "commands.cping.success": "Your average ping is %d",
+  "commands.cping.success.other": "The average ping of %s is %d",
+  "commands.cping.singleplayer": "You are in a singleplayer world",
+  "commands.cping.playerNotFound": "Player not found",
+  "commands.cping.tooManyPlayers": "Your query can match at most 1 player"
 }
