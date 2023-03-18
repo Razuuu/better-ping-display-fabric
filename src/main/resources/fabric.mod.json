@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "betterpingdisplay",
-  "version": "2.0.0",
+  "version": "2.0.2",
 
   "name": "Better Ping Display",
   "description": "Shows the actual ping number instead of just bars in the player list!\n+ Ping command built-in! (accessible via /cping)",
