@@ -3,8 +3,17 @@
 A [Fabric](https://fabricmc.net/) mod for Minecraft to display each player's ping in the player list as a number.
 
 ![](https://i.imgur.com/HTrH0i2.png)
+![](https://share.razuuu.de/i/J.dxERL.png)
 
 This is a client-side mod. The server doesn't need to have it installed. It works even when playing on vanilla servers.
+
+## Download mod from releases
+
+Download `BetterPingDisplay-Fabric-x.x.x.jar` from [here](https://github.com/Razuuu/better-ping-display-fabric/releases) and paste it to you're mods folder.
+
+## Commands
+`/cping` - You're own Ping  
+`/cping Player` - Ping from other player
 
 ## Configuration
 
