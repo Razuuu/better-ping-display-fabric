@@ -1,5 +1,7 @@
 # Better Ping Display - Fabric Edition
 
+[![Automatic Release](https://github.com/Razuuu/better-ping-display-fabric/actions/workflows/release.yaml/badge.svg)](https://github.com/Razuuu/better-ping-display-fabric/actions/workflows/release.yaml)
+
 A [Fabric](https://fabricmc.net/) mod for Minecraft to display each player's ping in the player list as a number.
 
 ![](https://i.imgur.com/HTrH0i2.png)
